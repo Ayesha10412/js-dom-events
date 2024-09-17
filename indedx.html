@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Event</title>
+</head>
+<body>
+    <main>
+<h1 onclick="console.log('this is a header')">JS Dom Event</h1>
+<button title="click just one time" id="make-pink" onclick="console.log(5)" >Pink</button>
+<button onclick="console.log(45)" id="make-tomato">Tomato</button>
+<button onclick="makeGreen()">Green</button>
+<button id="make-blue" onclick="">Blue</button>
+<button id="make-goldenrod">Golden</button>
+<button onclick="document.body.style.backgroundColor='yellow'">Yellow</button>
+
+<p id="input-status">Default Texts</p>
+
+<input id="input-field" type="text">
+<button id="update-btn">Update</button>
+<br>
+<br>
+<h3 id="handler-status">Default Texts</h3>
+
+<button onclick="handleClick()">Handle event by onclick function</button>
+<button id="event-listener">Handle event by addEvenListener</button>
+
+
+
+
+    </main>
+    <script src="./js/event.js"></script>
+
+    <script>
+       
+       
+    </script>
+</body>
+</html>
