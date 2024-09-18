@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github delete system</title>
+</head>
+<body>
+    <div>
+<h1 id="text">Explore more about dom</h1>
+
+<input id="input-box" type="text" placeholder="please type delete">
+<br><br>
+<button id="btn-delete">Delete</button>
+    </div>
+
+    <script>
+
+document.getElementById('btn-delete').addEventListener('click', function(){
+
+    const input=document.getElementById('input-box');
+    const inputBox=input.value;
+
+    const headerText=document.getElementById('text');
+
+    if(inputBox=='delete'){
+        headerText.style.display='none';
+
+    }
+    else{
+        console.log("not removed");
+    }
+})
+
+
+    </script>
+
+
+
+</body>
+</html>
